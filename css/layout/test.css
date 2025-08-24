@@ -1,0 +1,75 @@
+:root{
+    --main-color:white;
+    --secondary-color:#181818;
+}
+
+#test{
+    background-color: var(--secondary-color);
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.test-content__title{
+    color: var(--main-color);
+    font-size: 52px;
+    font-family: Graphik;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.test-content__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    max-width: 883px;
+    max-width: 100%;
+}
+
+.test-contant__card1{
+    padding: 40px;
+    padding-left: 30px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    max-width: 430px;
+    width: 100%;
+    height: 328px;
+}
+
+.test-contant__card2{
+    padding: 40px;
+    padding-left: 30px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    max-width: 430px;
+    width: 100%;
+    height: 304px;
+}
+
+.test-contant__card3{
+    padding: 40px;
+    padding-left: 30px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    max-width: 430px;
+    width: 100%;
+    height: 304px;
+}
+
+.test-contant__card4{
+    padding: 40px;
+    padding-left: 30px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    max-width: 430px;
+    width: 100%;
+    height: 304px;
+}
+
+.test-content__cards p{
+    color: var(--main-color);
+    line-height: 24px;
+    text-align: start;
+}
