@@ -1,0 +1,84 @@
+:root{
+    --main-color:white;
+    --secondary-color:#181818;
+}
+
+#hero{
+    background-color: var(--secondary-color);
+}
+
+.hero-content{
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.hero-content__card{
+    max-width: 602px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.hero-content__title{
+    font-family: Graphik;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.hero-content__desc{
+    font-family: Graphik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--main-color);
+    margin-top: 17px;
+    margin-bottom: 85px;
+}
+
+.hero-content__btns{
+    display: flex;
+    gap: 35px;
+    max-width: 387px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-content__btn1{
+    max-width: 178px;
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: transparent;
+    color: var(--main-color);
+    border: none;
+}
+
+.hero-content__btn2{
+    max-width: 178px;
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: transparent;
+    color: var(--main-color);
+    border: none;
+}
+
+.hero-content__btn1:hover{
+    background-color: #4452FE;
+    transition: all 1s ease;
+    border-radius: 5px;
+}
+
+.hero-content__btn2:hover{
+    background-color: #4452FE;
+    transition: all 1s ease;
+    border-radius: 5px;
+}
